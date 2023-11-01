@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.card {
+  @apply bg-gray-50 rounded-md shadow-md transition-all p-5
+}
+
+.card-hover {
+  @apply hover:shadow-2xl hover:scale-110
+}
